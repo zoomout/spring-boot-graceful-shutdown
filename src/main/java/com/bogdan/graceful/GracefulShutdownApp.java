@@ -1,13 +1,13 @@
-package com.bogdan.springbootgracefulshutdown;
+package com.bogdan.graceful;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootGracefulShutdownApplication {
+public class GracefulShutdownApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootGracefulShutdownApplication.class, args);
+		SpringApplication.run(GracefulShutdownApp.class, args);
 	}
 
 }
